@@ -14,8 +14,8 @@ public class MyPanel extends JPanel
     JTextField tfName,tfDept,tfAddress;
     public MyPanel(){
         this.setLayout(new FlowLayout());
-        mlName = new JLabel("?���?");
-        mlDept = new JLabel("?���?");
+        mlName = new JLabel("이름");
+        mlDept = new JLabel("학과");
         mlAddress = new JLabel("주소");
         tfName = new JTextField(14);
         tfDept = new JTextField("�?로벌?��?��?��?��?��",14);
