@@ -21,9 +21,9 @@ public class MyPanel extends JPanel
         mlDept = new JLabel("학과");
         mlAddress = new JLabel("주소");
         mlSchoolYear = new JLabel("학년");
-        tfName = new JTextField(14);
-        tfDept = new JTextField("글로벌소프트웨어",14);
-        tfAddress = new JTextField(14);
+        tfName = new JTextField(17);
+        tfDept = new JTextField("글로벌소프트웨어",17);
+        tfAddress = new JTextField("서울시..",17);
         String[] array = {"1학년","2학년","3학년","4학년"};
         cdSchoolYear = new JComboBox<String>(array);
         mb = new JButton("추가");
