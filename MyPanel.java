@@ -14,7 +14,7 @@ public class MyPanel extends JPanel
     JTextField tfName,tfDept,tfAddress;
     JButton mb,mbClear;
     JComboBox<String> cdSchoolYear;
-    TextArea ta;
+    JTextArea ta;
     public MyPanel(){
         this.setLayout(new FlowLayout());
         mlName = new JLabel("이름");
@@ -28,6 +28,7 @@ public class MyPanel extends JPanel
         cdSchoolYear = new JComboBox<String>(array);
         mb = new JButton("추가");
         mbClear = new JButton("Clear");
+        ta = new JTextArea(10,20);
         this.add(mlName);
         this.add(tfName);
         this.add(mlDept);
@@ -38,5 +39,6 @@ public class MyPanel extends JPanel
         this.add(cdSchoolYear);
         this.add(mb);
         this.add(mbClear);
+        this.add(ta);
     }
 }
