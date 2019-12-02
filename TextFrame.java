@@ -8,13 +8,13 @@ import javax.swing.*;
  */
 public class TextFrame extends JFrame
 {
-   private JPanel mp;
+   private MyPanel mp;
    public TextFrame()
    {
        setTitle("실습_4");
        setSize(250,350);
        
-       mp = new JPanel();
+       mp = new MyPanel();
        
        this.add(mp);
        
